@@ -25,7 +25,6 @@ function App() {
         <Route path="/write" element={user ? <Write /> : <Login />}>          </Route>
         <Route path="/settings" element={user ? <Settings /> : <Login />}>    </Route>
       </Routes>
-
     </Router>
    
     
